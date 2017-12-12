@@ -1,10 +1,11 @@
 {
   "name": "overlay",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "local and remote fallback HTTP proxy",
   "main": "lib/index.js",
   "bin": {
-    "overlay": "bin/overlay.js"
+    "overlay":       "bin/overlay.js",
+    "overlay-https": "bin/overlay-https.js"
   },
   "author": "Jonathan Palardy",
   "license": "MIT",
